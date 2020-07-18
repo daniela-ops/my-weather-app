@@ -1,12 +1,8 @@
-.main-results {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-}
 h1 {
   margin-bottom: 0;
+}
+p {
+  font-size: 50px;
 }
 ul {
   margin: 0px;
@@ -15,4 +11,16 @@ ul {
 li {
   list-style: none;
   text-align: left;
+}
+.main-results {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.overview {
+  margin-bottom: 10px;
 }
